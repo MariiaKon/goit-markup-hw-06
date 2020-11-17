@@ -340,6 +340,17 @@
                 </li>
             </ul>
             </div>
+            <div>
+            <h3>Подпишитесь на рассылку</h3>
+            <form action="/txs.html" class="subscribe-form">
+                <input class="subscribe-field" type="email" placeholder="E-mail">
+                <button type="submit" class="subscribe-btn"> Подписаться
+                    <svg class="subscribe-btn-icon">
+                        <use href="./images/icon/sprite/symbol-defs.svg#send"></use>
+                    </svg>
+                </button>
+            </form>
+            </div>
             </div>
         </div>
     </footer>
@@ -351,6 +362,38 @@
                     <use href="./images/icon/sprite/symbol-defs.svg#close-mobile"></use>
                 </svg>
             </button>
+            <form class="modal-form" action="/txs.html">
+                Оставьте свои данные, мы вам перезвоним
+                <label class="hint" >
+                    Имя
+                    <input class="modal-input-field" type="text" name="username">
+                    <svg class="modal-form-icon">
+                        <use href="./images/icon/sprite/symbol-defs.svg#person-modal"></use>
+                    </svg>
+                </label>
+                <label class="hint" >
+                    Телефон
+                    <input class="modal-input-field" type="tel" name="telephone">
+                    <svg class="modal-form-icon">
+                        <use href="./images/icon/sprite/symbol-defs.svg#phone-modal"></use>
+                    </svg>
+                </label>
+                <label class="hint" >
+                    Почта
+                    <input class="modal-input-field" type="email" name="e-mail">
+                    <svg class="modal-form-icon">
+                        <use href="./images/icon/sprite/symbol-defs.svg#mail-modal"></use>
+                    </svg>
+                </label>
+                <label class="hint">Комментарий
+                    <textarea class="modal-input-field comment" name="comment" rows="8" cols="45" placeholder="Введите текст"></textarea>
+                </label>
+                <label class="checkbox-description">              
+                    <input class="checkbox" type="checkbox">
+                    Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+                </label>
+                <button class="submit-modal-btn">Отправить</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
