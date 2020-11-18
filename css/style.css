@@ -432,6 +432,8 @@ img {
   height: 120px;
   padding: 12px 16px;
   resize: none;
+}
+.comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 .checkbox-description {
